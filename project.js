@@ -1,4 +1,4 @@
-sync function fetchSingleUser() {
+async function fetchSingleUser() {
     let responseBody = await fetch('https://randomuser.me/api/');
     let json = await responseBody.json();
     return json.results[0];
