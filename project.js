@@ -64,12 +64,12 @@ function projectPage(){
                               .pipe(filter((commentDta) => commentDta.postId === comId))
                               .subscribe((commentDta) => {
                                 displayComments(commentDta);
-                              });
+                            });
                 
             
-                       }
-                       }
-                       }
-                     }
+            }
+        }
+    }
+}
                   
                 
