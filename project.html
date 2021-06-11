@@ -1,49 +1,27 @@
 <!DOCTYPE html>
-<html lang="en-US">
-
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>Lab 7 - fetch</title>
-    <link href="http://jsonplaceholder.typicode.com/users">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASync project</title>
     <script src="project.js"></script>
 </head>
-
 <body>
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/rxjs/6.6.7/rxjs.umd.js" ></script> 
+   <div class="" style="background-color: rgb(14, 13, 13);" >
+       <input type="text" id="id" style="background-color: rgb(255, 0, 179);">
+       <button id="get-button">UserValue</button>
 
-    <div class="container">
-        <h1>Employees List</h1>
-        <div class="row border-top">
-            <div class="col">
-                <img id="img0" src="#" />
-            </div>
-            <div class="col">
-                <h3 id="name0"></h3>
-                <p id="phone0"></p>
-                <p id="email0"></p>
-            </div>
-        </div>
-        <div class="row border-top">
-            <div class="col">
-                <img id="img1" src="#" />
-            </div>
-            <div class="col">
-                <h3 id="name1"></h3>
-                <p id="phone1"></p>
-                <p id="email1"></p>
-            </div>
-        </div>
-        <div class="row border-top border-bottom">
-            <div class="col">
-                <img id="img2" src="#" />
-            </div>
-            <div class="col">
-                <h3 id="name2"></h3>
-                <p id="phone2"></p>
-                <p id="email2"></p>
-            </div>
-        </div>
-        <button id="refeshBtn" class="btn btn-success">Refresh</button>
+   </div>
+    <div id="user-info" style="background-color: rgb(255, 0, 0);">
+
     </div>
-</body>
+    <div id="user-post" style="background-color: rgb(0, 255, 0);">
 
+    </div>
+  
+</body>
 </html>
+
